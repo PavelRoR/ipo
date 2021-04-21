@@ -8,17 +8,17 @@
 	font-size: 18px
 	text-transform uppercase
 	padding 19px 25px 20px
-	background-color: #CC922F
+	background-color: #4eb7f9
 	min-width 220px
 	transition: all .3s ease
 	&:focus
 		text-decoration none
 		color #fff
-		background-color: #CC922F
+		background-color: #4eb7f9
 	&:hover
 		text-decoration none
 		color #fff
-		background-color: #CC922F - 25%
+		background-color: #4eb7f9 - 25%
 	&-wrapper-center
 		text-align center
 	@media screen and (max-width 991px)
@@ -55,6 +55,7 @@
 		font-family GM
 		font-size: 22px
 		font-weight: 900
+		color #cc922f
 		@media screen and (max-width 560px)
 			font-size: 20px
 .general-text
@@ -71,8 +72,14 @@
 	font-weight: 900
 	text-transform uppercase
 	margin-bottom: 50px
+	position relative
+	span
+		position relative
+		z-index 30
 	&-right
 		text-align right
+	&-white
+		color #fff
 	@media screen and (max-width 991px)
 		text-align center
 	@media screen and (max-width 560px)
