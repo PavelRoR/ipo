@@ -23,6 +23,10 @@ html(lang="ru")
 				include pug/base/1-header
 				.container
 					h1.main-title Упс... Что-то не так!
-					h2.main-subtitle Похоже, страницы с указанным адресом не существует или Вы ввели неверный адрес
-		include pug/base/3-scripts
+					h2.main-subtitle Похоже, страницы с указанным адресом не существует
+						br
+						| или
+						br
+						| Вы ввели неверный адрес
+		script(src=scripts)
 		include pug/scripts/body_bottom_scripts

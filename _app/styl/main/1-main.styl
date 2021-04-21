@@ -1,8 +1,8 @@
 #main
 	padding 0 0 90px
 	position relative
-	background-color: #20218A
-	background-image: url(../img/backs-2/main.jpg)
+	background-color: #04050B
+	background-image: url(../img/backs/main.jpg)
 	background-repeat: no-repeat
 	background-position: center
 	background-size cover
@@ -15,96 +15,28 @@
 		padding 0 0 30px
 .main
 	&-pre
-		&-1
-			display inline-block
-			padding 5px 30px
-			font-size: 16px
-			text-transform uppercase
-			margin-bottom: 20px
-			text-align: center
-			background-color #380368
-			@media screen and (max-width 560px)
-				font-size: 14px
-		&-2
-			font-size: 18px
-			text-transform uppercase
-			@media screen and (max-width 560px)
-				margin-top: 20px
-				font-size: 16px
+		font-family: GM
+		font-size: 14px
+		margin-bottom: 10px
 	&-title
 		font-family: GM
-		font-size: 40px
-		font-weight: 900
+		font-size: 30px
+		font-weight: 600
 		text-transform uppercase
-		margin 35px 0 0
-		@media screen and (max-width 767px)
-			font-size: 32px
-		@media screen and (max-width 560px)
-			font-size: 26px
-			margin 20px 0 0
-		@media screen and (max-width 385px)
-			font-size: 24px
+		span
+			background-color: #cc922f
+			padding 5px 5px 10px
 	&-subtitle
 		font-family: GM
-		font-size: 25px
-		font-weight: bold
-		margin 0 0 70px
-		position relative
+		font-size: 35px
+		font-weight: 900
+		margin 50px 0
 		text-transform uppercase
-		@media screen and (max-width 767px)
-			font-size: 22px
-		@media screen and (max-width 560px)
-			font-size: 20px
-		span
-			position relative
-			z-index 20
-		&-span
-			&:before
-				content: ''
-				display block
-				position absolute
-				width 480px
-				height 60px
-				background-color: #380368
-				top -3px
-				left -5px
-				z-index -1
-				@media screen and (max-width 385px)
-					width 100%
-					left 0
-					right 0
-					margin 0 auto
 	&-info
-		position relative
-		display inline-block
-		padding 15px 10px 15px 55px
-		background-color:  #380368
-		&:before
-			content: ''
-			display block
-			position absolute
-			width 56px
-			height 61px
-			background-image: url(../img/images-2/date.png)
-			background-repeat: no-repeat
-			background-position: center
-			left -22px
-			top clac(50% - 30px)
-		&:after
-			content: ''
-			display block
-			position absolute
-			right: 0
-			bottom 0
-			width 130px
-			height: 20px
-			background-color: #4EB7F9
 		&-text
-			position relative
-			z-index 20
-			color #fff
-			line-height: 24px
+			margin-top: 5px
 			span
+				display inline-block
 				font-weight: bold
 		@media screen and (max-width 767px)
 			padding 35px 15px
@@ -117,3 +49,6 @@
 				margin 0 auto
 				left 0
 				right 0
+.video-wrapper-main
+	max-width 560px
+	margin-top: 60px
