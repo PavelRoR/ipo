@@ -21,8 +21,13 @@
 	width 550px
 	height 240px
 	z-index 5
-	top -20px
+	top 210px
 	right -20px
+	@media screen and (max-width 991px)
+		top auto
+		bottom: -20px
+	@media screen and (max-width 560px)
+		left 40px
 .author-container
 	background-color: #19334d
 	color #fff
@@ -55,8 +60,8 @@
 		margin-top: 100px
 	@media screen and (max-width 991px)
 		margin-top: 30px
-	@media screen and (max-width 385px)
-		margin-top: 10px
+	@media screen and (max-width 560px)
+		margin-top: 50px
 .form-title-author
 	margin-bottom: 30px
 	color: #000
